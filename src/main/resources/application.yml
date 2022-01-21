@@ -1,5 +1,0 @@
-# minio 参数配置
-minio:
-  endpoint: http://localhost:9001
-  name: admin
-  password: admin123456

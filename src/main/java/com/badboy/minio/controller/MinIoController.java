@@ -24,7 +24,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * @author badboy
  */
-@RestController
+//@RestController
 public class MinIoController {
 
   @Autowired

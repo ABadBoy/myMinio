@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author badboy
  */
-@Configuration
-@EnableConfigurationProperties(MinIoPropertiesConfig.class)
+//@Configuration
+//@EnableConfigurationProperties(MinIoPropertiesConfig.class)
 public class MinioClientConfig {
 
   @Resource

@@ -3,3 +3,12 @@ minio:
   endpoint: http://localhost:9001
   name: admin
   password: admin123456
+
+spring:
+  minio:
+    url: http://localhost:9001
+    accessKey: admin
+    secretKey: admin123456
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
